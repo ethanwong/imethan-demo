@@ -1,0 +1,35 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>cn.imethan</groupId>
+	<artifactId>imethan-demo</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
+
+	<name>imethan-demo</name>
+	<url>http://imethan.cn</url>
+	<description>imethan-demo</description>
+	
+	<developers>
+		<developer>
+			<name>Ethan Wong</name>
+			<organization>ImEthan</organization>
+			<email>ethanwong@qq.com</email>
+			<url>http://imethan.cn</url>
+		</developer>
+	</developers>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+	
+	<modules>
+		<module>imethan-common</module>
+		<module>imethan-log4j2</module>
+		<module>imethan-jaxrs</module>
+		<module>imethan-rabbitmq</module>
+		<module>imethan-redis</module>
+		<module>imethan-hadoop</module>
+	</modules>
+
+</project>

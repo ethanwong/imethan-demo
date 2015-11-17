@@ -1,0 +1,458 @@
+14:16:12.467 [main] DEBUG org.springframework.data.mongodb.core.index.MongoPersistentEntityIndexCreator - Analyzing class class cn.mongodb.data.Person for index information.
+14:16:12.479 [main] DEBUG org.springframework.data.mongodb.core.MongoTemplate - Inserting DBObject containing fields: [_class, _id, name, age] in collection: person
+14:16:12.489 [main] DEBUG org.springframework.data.mongodb.core.MongoDbUtils - Getting Mongo Database name=[database]
+14:16:12.526 [main] DEBUG org.springframework.data.mongodb.core.MongoTemplate - findOne using query: { "name" : "Joe"} fields: null for class: class cn.mongodb.data.Person in collection: person
+14:16:12.529 [main] DEBUG org.springframework.data.mongodb.core.MongoDbUtils - Getting Mongo Database name=[database]
+14:16:12.530 [main] DEBUG org.springframework.data.mongodb.core.MongoTemplate - findOne using query: { "name" : "Joe"} in db.collection: database.person
+14:16:12.548 [main] INFO  cn.mongodb.data.MongoApp - Person [id=5609f681b14f2d31e1c0a4a3, name=Joe, age=34]
+14:16:17.549 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:16:17.549 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:16:22.551 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:16:22.551 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:16:27.551 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:16:27.551 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:16:32.552 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:16:32.553 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:16:37.553 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:16:37.553 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:19:01.283 [main] TRACE cn.log4j.Bar - entry
+14:19:01.284 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:19:01.284 [main] TRACE cn.log4j.Bar - exit with(false)
+14:19:06.285 [main] TRACE cn.log4j.Bar - entry
+14:19:06.285 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:19:06.285 [main] TRACE cn.log4j.Bar - exit with(false)
+14:19:11.285 [main] TRACE cn.log4j.Bar - entry
+14:19:11.285 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:19:11.285 [main] TRACE cn.log4j.Bar - exit with(false)
+14:19:16.286 [main] TRACE cn.log4j.Bar - entry
+14:19:16.286 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:19:16.286 [main] TRACE cn.log4j.Bar - exit with(false)
+14:19:21.286 [main] TRACE cn.log4j.Bar - entry
+14:19:21.286 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:19:21.286 [main] TRACE cn.log4j.Bar - exit with(false)
+14:19:26.287 [main] TRACE cn.log4j.Bar - entry
+14:19:26.288 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:19:26.289 [main] TRACE cn.log4j.Bar - exit with(false)
+14:20:19.947 [main] DEBUG org.springframework.data.mongodb.core.index.MongoPersistentEntityIndexCreator - Analyzing class class cn.mongodb.data.Person for index information.
+14:20:19.956 [main] DEBUG org.springframework.data.mongodb.core.MongoTemplate - Inserting DBObject containing fields: [_class, _id, name, age] in collection: person
+14:20:19.963 [main] DEBUG org.springframework.data.mongodb.core.MongoDbUtils - Getting Mongo Database name=[database]
+14:20:19.993 [main] DEBUG org.springframework.data.mongodb.core.MongoTemplate - findOne using query: { "name" : "Joe"} fields: null for class: class cn.mongodb.data.Person in collection: person
+14:20:19.995 [main] DEBUG org.springframework.data.mongodb.core.MongoDbUtils - Getting Mongo Database name=[database]
+14:20:19.996 [main] DEBUG org.springframework.data.mongodb.core.MongoTemplate - findOne using query: { "name" : "Joe"} in db.collection: database.person
+14:20:20.014 [main] INFO  cn.mongodb.data.MongoApp - Person [id=5609f681b14f2d31e1c0a4a3, name=Joe, age=34]
+14:20:25.016 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:20:25.017 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:20:30.017 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:20:30.017 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:20:35.018 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:20:35.018 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:20:40.019 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:20:40.019 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:20:45.020 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:20:45.020 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:20:50.020 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:20:50.020 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:20:55.021 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:20:55.021 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:21:00.021 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:21:00.021 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:21:05.022 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:21:05.022 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:21:10.022 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:21:10.022 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:21:15.023 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:21:15.023 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:21:20.023 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:21:20.023 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:21:25.024 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:21:25.024 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:21:30.024 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:21:30.024 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:21:35.025 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:21:35.025 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:21:40.025 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:21:40.025 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:21:45.026 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:21:45.026 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:21:50.026 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:21:50.026 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:21:55.027 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:21:55.027 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:22:00.027 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:22:00.027 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:22:05.028 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:22:05.028 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:22:10.028 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:22:10.028 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:22:15.030 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:22:15.030 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:22:20.031 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:22:20.031 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:22:25.032 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:22:25.032 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:22:30.032 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:22:30.032 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:22:35.033 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:22:35.034 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:22:40.034 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:22:40.034 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:22:45.036 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:22:45.036 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:22:50.038 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:22:50.038 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:22:55.040 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:22:55.040 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:23:00.040 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:23:00.040 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:23:05.041 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:23:05.041 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:23:10.042 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:23:10.042 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:23:15.042 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:23:15.042 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:23:20.043 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:23:20.043 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:23:25.043 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:23:25.043 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:23:30.044 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:23:30.044 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:23:35.044 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:23:35.044 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:23:40.046 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:23:40.046 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:23:45.046 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:23:45.046 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:23:50.047 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:23:50.047 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:23:55.047 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:23:55.047 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:24:00.048 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:24:00.048 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:24:05.048 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:24:05.048 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:24:10.049 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:24:10.049 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:24:15.049 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:24:15.049 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:24:20.050 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:24:20.050 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:24:25.050 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:24:25.050 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:24:30.052 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:24:30.052 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:24:35.052 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:24:35.052 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:24:40.053 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:24:40.053 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:24:45.054 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:24:45.054 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:24:50.055 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:24:50.055 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:24:55.055 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:24:55.055 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:25:00.057 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:25:00.057 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:25:05.057 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:25:05.057 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:25:10.058 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:25:10.058 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:25:15.058 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:25:15.058 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:25:20.059 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:25:20.060 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:25:25.061 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:25:25.061 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:25:30.064 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:25:30.064 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:25:35.064 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:25:35.064 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:25:40.065 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:25:40.066 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:25:45.066 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:25:45.066 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:25:50.067 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:25:50.067 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:25:55.068 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:25:55.068 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:26:00.069 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:26:00.069 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:26:05.070 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:26:05.070 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:26:10.071 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:26:10.090 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:26:15.091 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:26:15.091 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:26:20.092 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:26:20.092 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:26:25.093 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:26:25.093 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:26:30.095 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:26:30.095 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:26:35.097 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:26:35.097 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:26:40.097 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:26:40.098 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:26:45.099 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:26:45.099 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:26:50.099 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:26:50.099 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:26:55.100 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:26:55.100 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:27:00.100 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:27:00.100 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:27:05.101 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:27:05.101 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:27:10.101 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:27:10.101 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:27:15.102 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:27:15.102 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:27:20.102 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:27:20.102 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:27:25.103 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:27:25.103 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:27:30.103 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:27:30.103 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:27:35.104 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:27:35.104 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:27:40.104 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:27:40.104 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:27:45.105 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:27:45.105 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:27:50.105 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:27:50.105 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:27:55.106 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:27:55.106 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:28:00.106 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:28:00.106 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:28:05.107 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:28:05.107 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:28:10.108 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:28:10.108 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:28:15.109 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:28:15.109 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:28:20.109 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:28:20.109 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:28:25.110 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:28:25.110 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:28:30.110 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:28:30.110 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:28:35.111 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:28:35.111 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:28:40.111 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:28:40.111 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:28:45.112 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:28:45.112 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:28:50.112 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:28:50.112 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:31:23.876 [main] DEBUG org.springframework.data.mongodb.core.index.MongoPersistentEntityIndexCreator - Analyzing class class cn.mongodb.data.Person for index information.
+14:31:23.889 [main] DEBUG org.springframework.data.mongodb.core.MongoTemplate - Inserting DBObject containing fields: [_class, _id, name, age] in collection: person
+14:31:23.898 [main] DEBUG org.springframework.data.mongodb.core.MongoDbUtils - Getting Mongo Database name=[database]
+14:31:23.931 [main] DEBUG org.springframework.data.mongodb.core.MongoTemplate - findOne using query: { "name" : "Joe"} fields: null for class: class cn.mongodb.data.Person in collection: person
+14:31:23.933 [main] DEBUG org.springframework.data.mongodb.core.MongoDbUtils - Getting Mongo Database name=[database]
+14:31:23.934 [main] DEBUG org.springframework.data.mongodb.core.MongoTemplate - findOne using query: { "name" : "Joe"} in db.collection: database.person
+14:31:23.952 [main] INFO  cn.mongodb.data.MongoApp - Person [id=5609f681b14f2d31e1c0a4a3, name=Joe, age=34]
+14:31:28.954 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:31:28.954 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:31:33.954 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:31:33.954 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:31:38.955 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:31:38.955 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:31:43.955 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:31:43.955 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:31:48.956 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:31:48.956 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:31:53.957 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:31:53.957 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:31:58.958 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:31:58.958 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:32:03.958 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:32:03.958 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:32:08.960 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:32:08.960 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:32:13.960 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:32:13.960 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:32:18.961 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:32:18.961 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:32:23.961 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:32:23.961 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:32:28.962 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:32:28.962 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:32:33.962 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:32:33.962 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:32:38.963 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:32:38.963 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:32:43.964 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:32:43.964 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:32:48.965 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:32:48.965 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:32:53.965 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:32:53.966 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:32:58.968 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:32:58.969 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:33:03.969 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:33:03.969 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:33:08.970 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:33:08.970 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:33:18.089 [main] DEBUG org.springframework.data.mongodb.core.index.MongoPersistentEntityIndexCreator - Analyzing class class cn.mongodb.data.Person for index information.
+14:33:18.099 [main] DEBUG org.springframework.data.mongodb.core.MongoTemplate - Inserting DBObject containing fields: [_class, _id, name, age] in collection: person
+14:33:18.105 [main] DEBUG org.springframework.data.mongodb.core.MongoDbUtils - Getting Mongo Database name=[database]
+14:33:18.137 [main] DEBUG org.springframework.data.mongodb.core.MongoTemplate - findOne using query: { "name" : "Joe"} fields: null for class: class cn.mongodb.data.Person in collection: person
+14:33:18.140 [main] DEBUG org.springframework.data.mongodb.core.MongoDbUtils - Getting Mongo Database name=[database]
+14:33:18.140 [main] DEBUG org.springframework.data.mongodb.core.MongoTemplate - findOne using query: { "name" : "Joe"} in db.collection: database.person
+14:33:18.157 [main] INFO  cn.mongodb.data.MongoApp - Person [id=5609f681b14f2d31e1c0a4a3, name=Joe, age=34]
+14:33:23.159 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:33:23.159 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:33:28.160 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:33:28.160 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:33:33.161 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:33:33.161 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:33:38.162 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:33:38.162 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:33:43.163 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:33:43.163 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:33:48.163 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:33:48.163 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:33:53.164 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:33:53.165 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:33:58.165 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:33:58.165 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:34:03.166 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:34:03.166 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:34:08.166 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:34:08.166 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:34:13.167 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:34:13.167 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:34:18.167 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:34:18.168 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:34:23.169 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:34:23.169 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:34:28.169 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:34:28.169 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:34:33.171 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:34:33.171 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:34:38.172 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:34:38.172 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:34:43.174 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:34:43.174 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:34:48.174 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:34:48.174 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:34:53.175 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:34:53.175 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:34:58.175 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:34:58.175 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:35:03.176 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:35:03.176 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:35:08.176 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:35:08.176 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:35:13.177 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:35:13.177 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:35:18.179 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:35:18.179 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:35:23.179 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:35:23.179 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:35:28.180 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:35:28.180 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:35:33.180 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:35:33.180 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:36:58.374 [main] DEBUG org.springframework.data.mongodb.core.index.MongoPersistentEntityIndexCreator - Analyzing class class cn.mongodb.data.Person for index information.
+14:36:58.412 [main] DEBUG org.springframework.data.mongodb.core.MongoTemplate - Inserting DBObject containing fields: [_class, _id, name, age] in collection: person
+14:36:58.421 [main] DEBUG org.springframework.data.mongodb.core.MongoDbUtils - Getting Mongo Database name=[database]
+14:36:58.438 [main] DEBUG org.springframework.data.mongodb.core.MongoTemplate - findOne using query: { "name" : "Joe"} fields: null for class: class cn.mongodb.data.Person in collection: person
+14:36:58.441 [main] DEBUG org.springframework.data.mongodb.core.MongoDbUtils - Getting Mongo Database name=[database]
+14:36:58.444 [main] DEBUG org.springframework.data.mongodb.core.MongoTemplate - findOne using query: { "name" : "Joe"} in db.collection: database.person
+14:36:58.461 [main] INFO  cn.mongodb.data.MongoApp - Person [id=5609f681b14f2d31e1c0a4a3, name=Joe, age=34]
+14:37:03.465 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:37:03.465 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:37:08.470 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:37:08.470 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:37:13.474 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:37:13.474 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:37:18.477 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:37:18.477 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:37:23.481 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:37:23.481 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:37:28.483 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:37:28.483 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:37:33.486 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:37:33.486 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:37:38.488 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:37:38.488 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:37:43.491 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:37:43.491 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:37:48.494 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:37:48.494 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:37:53.497 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:37:53.498 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:37:58.501 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:37:58.501 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:38:03.505 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:38:03.505 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:38:08.507 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:38:08.507 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:38:13.511 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:38:13.511 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:38:18.513 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:38:18.513 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:42:06.525 [main] DEBUG org.springframework.data.mongodb.core.index.MongoPersistentEntityIndexCreator - Analyzing class class cn.mongodb.data.Person for index information.
+14:42:06.556 [main] DEBUG org.springframework.data.mongodb.core.MongoTemplate - Inserting DBObject containing fields: [_class, _id, name, age] in collection: person
+14:42:06.564 [main] DEBUG org.springframework.data.mongodb.core.MongoDbUtils - Getting Mongo Database name=[database]
+14:42:06.580 [main] DEBUG org.springframework.data.mongodb.core.MongoTemplate - findOne using query: { "name" : "Joe"} fields: null for class: class cn.mongodb.data.Person in collection: person
+14:42:06.584 [main] DEBUG org.springframework.data.mongodb.core.MongoDbUtils - Getting Mongo Database name=[database]
+14:42:06.586 [main] DEBUG org.springframework.data.mongodb.core.MongoTemplate - findOne using query: { "name" : "Joe"} in db.collection: database.person
+14:42:06.603 [main] INFO  cn.mongodb.data.MongoApp - Person [id=5609f681b14f2d31e1c0a4a3, name=Joe, age=34]
+14:44:15.416 [main] DEBUG org.springframework.data.mongodb.core.index.MongoPersistentEntityIndexCreator - Analyzing class class cn.mongodb.data.Person for index information.
+14:44:15.447 [main] DEBUG org.springframework.data.mongodb.core.MongoTemplate - Inserting DBObject containing fields: [_class, _id, name, age] in collection: person
+14:44:15.455 [main] DEBUG org.springframework.data.mongodb.core.MongoDbUtils - Getting Mongo Database name=[database]
+14:44:15.471 [main] DEBUG org.springframework.data.mongodb.core.MongoTemplate - findOne using query: { "name" : "Joe"} fields: null for class: class cn.mongodb.data.Person in collection: person
+14:44:15.474 [main] DEBUG org.springframework.data.mongodb.core.MongoDbUtils - Getting Mongo Database name=[database]
+14:44:15.477 [main] DEBUG org.springframework.data.mongodb.core.MongoTemplate - findOne using query: { "name" : "Joe"} in db.collection: database.person
+14:44:15.493 [main] INFO  cn.mongodb.data.MongoApp - Person [id=5609f681b14f2d31e1c0a4a3, name=Joe, age=34]
+14:44:20.497 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:44:20.497 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:44:25.500 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:44:25.500 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:49:15.254 [main] DEBUG org.springframework.data.mongodb.core.index.MongoPersistentEntityIndexCreator - Analyzing class class cn.mongodb.data.Person for index information.
+14:49:15.285 [main] DEBUG org.springframework.data.mongodb.core.MongoTemplate - Inserting DBObject containing fields: [_class, _id, name, age] in collection: person
+14:49:15.295 [main] DEBUG org.springframework.data.mongodb.core.MongoDbUtils - Getting Mongo Database name=[database]
+14:49:15.311 [main] DEBUG org.springframework.data.mongodb.core.MongoTemplate - findOne using query: { "name" : "Joe"} fields: null for class: class cn.mongodb.data.Person in collection: person
+14:49:15.315 [main] DEBUG org.springframework.data.mongodb.core.MongoDbUtils - Getting Mongo Database name=[database]
+14:49:15.317 [main] DEBUG org.springframework.data.mongodb.core.MongoTemplate - findOne using query: { "name" : "Joe"} in db.collection: database.person
+14:49:15.334 [main] INFO  cn.mongodb.data.MongoApp - Person [id=5609f681b14f2d31e1c0a4a3, name=Joe, age=34]
+14:49:20.337 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:49:20.337 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+15:02:12.304 [main] DEBUG org.springframework.data.mongodb.core.index.MongoPersistentEntityIndexCreator - Analyzing class class cn.mongodb.data.Person for index information.
+15:02:12.335 [main] DEBUG org.springframework.data.mongodb.core.MongoTemplate - Inserting DBObject containing fields: [_class, _id, name, age] in collection: person
+15:02:12.346 [main] DEBUG org.springframework.data.mongodb.core.MongoDbUtils - Getting Mongo Database name=[database]
+15:02:12.362 [main] DEBUG org.springframework.data.mongodb.core.MongoTemplate - findOne using query: { "name" : "Joe"} fields: null for class: class cn.mongodb.data.Person in collection: person
+15:02:12.365 [main] DEBUG org.springframework.data.mongodb.core.MongoDbUtils - Getting Mongo Database name=[database]
+15:02:12.367 [main] DEBUG org.springframework.data.mongodb.core.MongoTemplate - findOne using query: { "name" : "Joe"} in db.collection: database.person
+15:02:12.384 [main] INFO  cn.mongodb.data.MongoApp - Person [id=5609f681b14f2d31e1c0a4a3, name=Joe, age=34]
+15:02:17.387 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+15:02:17.388 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+15:02:22.390 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+15:02:22.391 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+15:02:27.395 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+15:02:27.395 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+15:02:32.397 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+15:02:32.397 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+15:02:37.400 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+15:02:37.400 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+15:02:42.402 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+15:02:42.402 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+15:02:47.405 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+15:02:47.405 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+15:02:52.408 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+15:02:52.408 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+15:02:57.410 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+15:02:57.410 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+15:03:02.412 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+15:03:02.412 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+15:03:07.415 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+15:03:07.415 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+15:03:12.417 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+15:03:12.417 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+15:03:17.421 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+15:03:17.421 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+15:03:22.423 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+15:03:22.423 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+15:05:20.636 [main] DEBUG cn.log4j.Bar - Bar filter marker test

@@ -1,0 +1,21 @@
+2015-09-29 14:12:09,175 DEBUG o.s.d.m.c.i.MongoPersistentEntityIndexCreator [main] Analyzing class class cn.mongodb.data.Person for index information.
+2015-09-29 14:12:09,185 DEBUG o.s.d.m.c.MongoTemplate [main] Inserting DBObject containing fields: [_class, _id, name, age] in collection: person
+2015-09-29 14:12:09,192 DEBUG o.s.d.m.c.MongoDbUtils [main] Getting Mongo Database name=[database]
+2015-09-29 14:12:09,224 DEBUG o.s.d.m.c.MongoTemplate [main] findOne using query: { "name" : "Joe"} fields: null for class: class cn.mongodb.data.Person in collection: person
+2015-09-29 14:12:09,226 DEBUG o.s.d.m.c.MongoDbUtils [main] Getting Mongo Database name=[database]
+2015-09-29 14:12:09,227 DEBUG o.s.d.m.c.MongoTemplate [main] findOne using query: { "name" : "Joe"} in db.collection: database.person
+2015-09-29 14:12:09,245 INFO c.m.d.MongoApp [main] Person [id=5609f681b14f2d31e1c0a4a3, name=Joe, age=34]
+2015-09-29 14:12:14,247 ERROR c.m.d.MongoApp [main] Didn't do it.
+2015-09-29 14:12:19,248 ERROR c.m.d.MongoApp [main] Didn't do it.
+2015-09-29 14:12:24,248 ERROR c.m.d.MongoApp [main] Didn't do it.
+2015-09-29 14:12:29,250 ERROR c.m.d.MongoApp [main] Didn't do it.
+2015-09-29 14:12:34,250 ERROR c.m.d.MongoApp [main] Didn't do it.
+2015-09-29 14:12:39,251 ERROR c.m.d.MongoApp [main] Didn't do it.
+2015-09-29 14:12:44,252 ERROR c.m.d.MongoApp [main] Didn't do it.
+2015-09-29 14:12:49,253 ERROR c.m.d.MongoApp [main] Didn't do it.
+2015-09-29 14:12:54,253 ERROR c.m.d.MongoApp [main] Didn't do it.
+2015-09-29 14:12:59,254 ERROR c.m.d.MongoApp [main] Didn't do it.
+2015-09-29 14:13:04,254 ERROR c.m.d.MongoApp [main] Didn't do it.
+2015-09-29 14:13:09,255 ERROR c.m.d.MongoApp [main] Didn't do it.
+2015-09-29 14:13:14,255 ERROR c.m.d.MongoApp [main] Didn't do it.
+2015-09-29 14:13:19,257 ERROR c.m.d.MongoApp [main] Didn't do it.

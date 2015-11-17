@@ -1,0 +1,8 @@
+2015-09-30 14:13:53,394 DEBUG o.s.d.m.c.i.MongoPersistentEntityIndexCreator [main] Analyzing class class cn.mongodb.data.Person for index information.
+2015-09-30 14:13:53,419 DEBUG o.s.d.m.c.MongoTemplate [main] Inserting DBObject containing fields: [_class, _id, name, age] in collection: person
+2015-09-30 14:13:53,428 DEBUG o.s.d.m.c.MongoDbUtils [main] Getting Mongo Database name=[database]
+2015-09-30 14:13:53,462 DEBUG o.s.d.m.c.MongoTemplate [main] findOne using query: { "name" : "Joe"} fields: null for class: class cn.mongodb.data.Person in collection: person
+2015-09-30 14:13:53,463 DEBUG o.s.d.m.c.MongoDbUtils [main] Getting Mongo Database name=[database]
+2015-09-30 14:13:53,464 DEBUG o.s.d.m.c.MongoTemplate [main] findOne using query: { "name" : "Joe"} in db.collection: database.person
+2015-09-30 14:13:53,482 INFO c.m.d.MongoApp [main] Person [id=5609f681b14f2d31e1c0a4a3, name=Joe, age=34]
+2015-09-30 14:13:58,484 ERROR c.m.d.MongoApp [main] Didn't do it.

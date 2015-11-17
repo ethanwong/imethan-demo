@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- status表示log4j事件输出控制台级别，分别有"trace", "debug", "info", "warn", "error","fatal" -->
+<!-- monitorInterval表示log4j会自动监听配置文件的变动，最小监听时间为5秒 -->
+<Configuration status="WARN" monitorInterval="5">
+
+   <!-- 通用属性配置 -->
+  <Properties>
+    <Property name="appname">imethan</Property>
+  </Properties>
+  
+  <!-- 默认过滤等级 -->
+  <ThresholdFilter level="trace"/>
+  
+  <Appenders>
+  	<!-- 控制台输出 -->
+    <Console name="Console" target="SYSTEM_OUT">
+      <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+    </Console>
+    
+    <!-- 单个文件记录 -->
+    <File name="File" fileName="${appname}.log" bufferedIO="true" advertiseURI="target/output.log" advertise="false">
+    	<PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+    </File>
+    <Appender type="File" name="File" fileName="${appname}.log">
+      <Layout type="PatternLayout">
+        <Pattern>%d %p %C{1.} [%t] %m%n</Pattern>
+      </Layout>
+    </Appender>
+    
+    <!-- 每日文件记录 -->
+	<RollingFile name="RollingFile" fileName="logs/${appname}.log" filePattern="logs/${appname}-%d{MM-dd-yyyy}.log.gz">
+      <BurstFilter level="debug" rate="16" maxBurst="100"/>
+      <PatternLayout>
+        <pattern>%d %p %c{1.} [%t] %m%n</pattern>
+      </PatternLayout>
+      <TimeBasedTriggeringPolicy />
+    </RollingFile>
+    
+    <!-- NoSql数据库记录 -->
+    <NoSql name="databaseAppender" ignoreExceptions="false">
+      <MongoDb databaseName="database" collectionName="applicationLog" server="127.0.0.1"
+               username="" password="" />
+    </NoSql>
+        
+  </Appenders>
+  
+  <Loggers>
+  	<!-- 全局日志记录 -->
+    <Root level="debug">
+      <AppenderRef ref="Console"/>
+      <AppenderRef ref="File"/>
+      <AppenderRef ref="RollingFile"/>
+      <AppenderRef ref="databaseAppender"/>
+    </Root>
+    
+  	<!-- 定义特定的程序的日志记录，additivity设置为flase,阻止Root再次打印 -->
+  	<Logger name="cn.log4j.Bar" level="debug" additivity="false">
+      <AppenderRef ref="Console"/>
+      <AppenderRef ref="File"/>
+      <!-- 过滤输出特定的日志 -->
+      <Filters>
+        <MarkerFilter marker="FLOW" onMatch="ACCEPT" onMismatch="NEUTRAL"/>
+        <MarkerFilter marker="EXCEPTION" onMatch="ACCEPT" onMismatch="DENY"/>
+      </Filters>
+    </Logger>
+  </Loggers>
+</Configuration>

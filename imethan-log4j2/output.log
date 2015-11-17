@@ -1,0 +1,79 @@
+13:59:32.975 [main] DEBUG org.springframework.data.mongodb.core.index.MongoPersistentEntityIndexCreator - Analyzing class class cn.mongodb.data.Person for index information.
+13:59:32.987 [main] DEBUG org.springframework.data.mongodb.core.MongoTemplate - Inserting DBObject containing fields: [_class, _id, name, age] in collection: person
+13:59:32.995 [main] DEBUG org.springframework.data.mongodb.core.MongoDbUtils - Getting Mongo Database name=[database]
+13:59:33.028 [main] DEBUG org.springframework.data.mongodb.core.MongoTemplate - findOne using query: { "name" : "Joe"} fields: null for class: class cn.mongodb.data.Person in collection: person
+13:59:33.030 [main] DEBUG org.springframework.data.mongodb.core.MongoDbUtils - Getting Mongo Database name=[database]
+13:59:33.031 [main] DEBUG org.springframework.data.mongodb.core.MongoTemplate - findOne using query: { "name" : "Joe"} in db.collection: database.person
+13:59:33.047 [main] INFO  cn.mongodb.data.MongoApp - Person [id=5609f681b14f2d31e1c0a4a3, name=Joe, age=34]
+13:59:38.050 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+13:59:38.050 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+13:59:43.050 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+13:59:43.050 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:00:18.770 [main] DEBUG org.springframework.data.mongodb.core.index.MongoPersistentEntityIndexCreator - Analyzing class class cn.mongodb.data.Person for index information.
+14:00:18.779 [main] DEBUG org.springframework.data.mongodb.core.MongoTemplate - Inserting DBObject containing fields: [_class, _id, name, age] in collection: person
+14:00:18.787 [main] DEBUG org.springframework.data.mongodb.core.MongoDbUtils - Getting Mongo Database name=[database]
+14:00:18.818 [main] DEBUG org.springframework.data.mongodb.core.MongoTemplate - findOne using query: { "name" : "Joe"} fields: null for class: class cn.mongodb.data.Person in collection: person
+14:00:18.820 [main] DEBUG org.springframework.data.mongodb.core.MongoDbUtils - Getting Mongo Database name=[database]
+14:00:18.821 [main] DEBUG org.springframework.data.mongodb.core.MongoTemplate - findOne using query: { "name" : "Joe"} in db.collection: database.person
+14:00:18.838 [main] INFO  cn.mongodb.data.MongoApp - Person [id=5609f681b14f2d31e1c0a4a3, name=Joe, age=34]
+14:00:23.839 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:00:23.840 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:00:28.841 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:00:28.841 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:00:33.842 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:00:33.842 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:00:38.843 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:00:38.843 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:01:18.645 [main] DEBUG org.springframework.data.mongodb.core.index.MongoPersistentEntityIndexCreator - Analyzing class class cn.mongodb.data.Person for index information.
+14:01:18.685 [main] DEBUG org.springframework.data.mongodb.core.MongoTemplate - Inserting DBObject containing fields: [_class, _id, name, age] in collection: person
+14:01:18.693 [main] DEBUG org.springframework.data.mongodb.core.MongoDbUtils - Getting Mongo Database name=[database]
+14:01:18.725 [main] DEBUG org.springframework.data.mongodb.core.MongoTemplate - findOne using query: { "name" : "Joe"} fields: null for class: class cn.mongodb.data.Person in collection: person
+14:01:18.727 [main] DEBUG org.springframework.data.mongodb.core.MongoDbUtils - Getting Mongo Database name=[database]
+14:01:18.742 [main] DEBUG org.springframework.data.mongodb.core.MongoTemplate - findOne using query: { "name" : "Joe"} in db.collection: database.person
+14:01:18.765 [main] INFO  cn.mongodb.data.MongoApp - Person [id=5609f681b14f2d31e1c0a4a3, name=Joe, age=34]
+14:01:23.766 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:01:23.766 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:12:09.175 [main] DEBUG org.springframework.data.mongodb.core.index.MongoPersistentEntityIndexCreator - Analyzing class class cn.mongodb.data.Person for index information.
+14:12:09.185 [main] DEBUG org.springframework.data.mongodb.core.MongoTemplate - Inserting DBObject containing fields: [_class, _id, name, age] in collection: person
+14:12:09.192 [main] DEBUG org.springframework.data.mongodb.core.MongoDbUtils - Getting Mongo Database name=[database]
+14:12:09.224 [main] DEBUG org.springframework.data.mongodb.core.MongoTemplate - findOne using query: { "name" : "Joe"} fields: null for class: class cn.mongodb.data.Person in collection: person
+14:12:09.226 [main] DEBUG org.springframework.data.mongodb.core.MongoDbUtils - Getting Mongo Database name=[database]
+14:12:09.227 [main] DEBUG org.springframework.data.mongodb.core.MongoTemplate - findOne using query: { "name" : "Joe"} in db.collection: database.person
+14:12:09.245 [main] INFO  cn.mongodb.data.MongoApp - Person [id=5609f681b14f2d31e1c0a4a3, name=Joe, age=34]
+14:12:14.246 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:12:14.247 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:12:19.248 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:12:19.248 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:12:24.248 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:12:24.248 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:12:29.250 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:12:29.250 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:12:34.250 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:12:34.250 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:12:39.251 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:12:39.251 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:12:44.251 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:12:44.252 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:12:49.253 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:12:49.253 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:12:54.253 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:12:54.253 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:12:59.254 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:12:59.254 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:13:04.254 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:13:04.254 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:13:09.255 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:13:09.255 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:13:14.255 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:13:14.255 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:13:19.257 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:13:19.257 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
+14:13:53.394 [main] DEBUG org.springframework.data.mongodb.core.index.MongoPersistentEntityIndexCreator - Analyzing class class cn.mongodb.data.Person for index information.
+14:13:53.419 [main] DEBUG org.springframework.data.mongodb.core.MongoTemplate - Inserting DBObject containing fields: [_class, _id, name, age] in collection: person
+14:13:53.428 [main] DEBUG org.springframework.data.mongodb.core.MongoDbUtils - Getting Mongo Database name=[database]
+14:13:53.462 [main] DEBUG org.springframework.data.mongodb.core.MongoTemplate - findOne using query: { "name" : "Joe"} fields: null for class: class cn.mongodb.data.Person in collection: person
+14:13:53.463 [main] DEBUG org.springframework.data.mongodb.core.MongoDbUtils - Getting Mongo Database name=[database]
+14:13:53.464 [main] DEBUG org.springframework.data.mongodb.core.MongoTemplate - findOne using query: { "name" : "Joe"} in db.collection: database.person
+14:13:53.482 [main] INFO  cn.mongodb.data.MongoApp - Person [id=5609f681b14f2d31e1c0a4a3, name=Joe, age=34]
+14:13:58.484 [main] DEBUG cn.log4j.Bar - Bar filter marker test
+14:13:58.484 [main] ERROR cn.mongodb.data.MongoApp - Didn't do it.
