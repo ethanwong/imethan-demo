@@ -30,6 +30,7 @@
 		<module>imethan-rabbitmq</module>
 		<module>imethan-redis</module>
 		<module>imethan-hadoop</module>
+		<module>imethan-webflow</module>
 	</modules>
 
 </project>
