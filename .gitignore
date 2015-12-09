@@ -2,3 +2,5 @@
 /imethan-log4j2/target
 /imethan-rabbitmq/target
 /imethan-redis/target
+/imethan-hadoop/target
+/imethan-jaxrs/target
