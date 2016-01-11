@@ -31,6 +31,7 @@
 		<module>imethan-redis</module>
 		<module>imethan-hadoop</module>
 		<module>imethan-webflow</module>
+		<module>imethan-struts2</module>
 		<module>imethan-test</module>
 	</modules>
 

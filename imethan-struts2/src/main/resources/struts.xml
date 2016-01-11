@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd"> 
+<struts> 
+    <constant name="struts.devMode" value="true" /> 
+    <package name="basicstruts2" extends="struts-default"> 
+        <action name="index">
+            <result>/WEB-INF/view/index.jsp</result>
+        </action>        
+        <action name="hello" class="cn.imethan.web.struts2.HelloWorldAction" method="execute">
+      		<result name="success">/WEB-INF/view/HelloWorld.jsp</result>
+    	</action> 
+    	
+    	<action name="enter" class="cn.imethan.web.struts2.RegisterAction" method="register">
+  			<result name="register">/WEB-INF/view/register.jsp</result>
+		</action>       
+    	<action name="register" class="cn.imethan.web.struts2.RegisterAction" method="execute">
+  			<result name="success">/WEB-INF/view/thankyou.jsp</result>
+		</action>       
+    </package> 
+</struts>
