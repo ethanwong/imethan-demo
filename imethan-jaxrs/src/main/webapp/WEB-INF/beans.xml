@@ -23,7 +23,11 @@
 	<!-- 自定义接口认证异常解析器 -->
 	<bean id="authExceptionMapper" class="cn.imethan.jax.rs.mapper.AuthExceptionMapper" />
 	
-	<bean id="messageInterceptor" class="cn.imethan.jax.rs.interceptor.MessageInterceptor" />
+	<!-- 通用请求拦截器 -->
+	<bean id="commonInInterceptor" class="cn.imethan.jax.rs.interceptor.CommonInInterceptor" />
+	
+	<!-- 通用响应拦截器 -->
+	<bean id="commonOutInterceptor" class="cn.imethan.jax.rs.interceptor.CommonOutInterceptor" />
 	
 	<!-- 权限验证拦截器 -->
 	<bean id="authInterceptor" class="cn.imethan.jax.rs.interceptor.AuthInterceptor" />
@@ -39,7 +43,6 @@
 		<property name="provider" ref="validationProvider" />
 	</bean>
 
-
 	<!-- 全局配置 -->
 	<!-- <cxf:bus> -->
 	<!-- <cxf:features> -->
@@ -50,11 +53,13 @@
 	<!-- 总线配置 -->
 	<cxf:bus>
 		<cxf:inInterceptors>
+			<ref bean="commonInInterceptor" />
 			<ref bean="logInbound" />
 			<ref bean="authInterceptor" />
 			<ref bean="validationInInterceptor" />
 		</cxf:inInterceptors>
 		<cxf:outInterceptors>
+			<ref bean="commonOutInterceptor" />
 			<ref bean="logOutbound" />
 			<ref bean="validationOutInterceptor" />
 		</cxf:outInterceptors>
