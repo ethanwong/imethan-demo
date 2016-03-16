@@ -33,6 +33,7 @@
 		<module>imethan-webflow</module>
 		<module>imethan-struts2</module>
 		<module>imethan-test</module>
+		<module>imethan-mina</module>
 	</modules>
 
 </project>
