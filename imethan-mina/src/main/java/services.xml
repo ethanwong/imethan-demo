@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<!-- services -->
+
+	<description>mina with spring</description>
+
+	<!-- The IoHandler implementation -->
+	<bean id="trapHandler" class="org.imethan.mina.ServerHandler" />
+	
+	<!-- Filter -->
+	<bean id="codecFilter" class="org.apache.mina.filter.codec.ProtocolCodecFilter">
+		<constructor-arg>
+			<bean class="org.imethan.mina.CodecFilter" />
+		</constructor-arg>
+	</bean>
+
+	<bean id="loggingFilter" class="org.apache.mina.filter.logging.LoggingFilter" />
+
+	<!-- The filter chain. -->
+	<bean id="filterChainBuilder"
+		class="org.apache.mina.core.filterchain.DefaultIoFilterChainBuilder">
+		<property name="filters">
+			<map>
+				<entry key="loggingFilter" value-ref="loggingFilter" />
+				<entry key="codecFilter" value-ref="codecFilter" />
+			</map>
+		</property>
+	</bean>
+
+	<bean class="org.springframework.beans.factory.config.CustomEditorConfigurer">
+		<property name="customEditors">
+			<map>
+				<entry key = "java.net.SocketAddress" value = "org.apache.mina.integration.beans.InetSocketAddressEditor" /> 
+			</map>
+		</property>
+	</bean>
+	
+	<!--  
+        By default MINA uses an ExecutorThreadModel. This demonstrates how to  
+        use your own with some non default settings. The threadModel will be  
+        set on the SocketAcceptorConfig defined below. To configure a  
+        ExecutorFilter directly you will have to use the ThreadModel.MANUAL  
+        ThreadModel instead.  
+    -->  
+    <bean id="threadModel"  
+        class="org.apache.mina.integration.spring.ExecutorThreadModelFactoryBean">  
+        <property name="serviceName" value="MyMinaService" />  
+        <property name="executor">  
+            <bean  
+                class="org.apache.mina.integration.spring.ThreadPoolExecutorFactoryBean">  
+                <property name="corePoolSize" value="2" />  
+                <property name="maxPoolSize" value="30" />  
+                <property name="keepAliveSeconds" value="30" />  
+            </bean>  
+        </property>  
+    </bean>  
+
+	<!-- The IoAcceptor which binds to port 161 -->
+	<bean id="ioAcceptor"
+		class="org.apache.mina.transport.socket.nio.NioDatagramAcceptor"
+		init-method="bind" destroy-method="unbind">
+		<property name="defaultLocalAddress" value=":8888" />
+		<property name="handler" ref="trapHandler" />
+		<property name="filterChainBuilder" ref="filterChainBuilder" />
+		
+		<property name="reuseAddress" value="true" />  
+        <property name="threadModel" ref="threadModel" />
+	</bean>
+	
+	<bean id="beanTest" class="org.imethan.mina.BeanTest"/>
+
+</beans>
