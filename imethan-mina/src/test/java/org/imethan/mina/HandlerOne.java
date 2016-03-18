@@ -17,7 +17,7 @@ public class HandlerOne extends IoHandlerAdapter {
 	public void messageReceived(IoSession session, Object message) throws Exception {
 		// TODO Auto-generated method stub
 		// super.messageReceived(session, message);
-		System.out.println("message :" + message);
+		System.out.println("client message :" + message);
 	}
 
 	@Override

@@ -17,19 +17,28 @@ import org.apache.mina.transport.socket.nio.NioSocketConnector;
  * @datetime 2016年3月16日下午4:04:40
  */
 public class ClintTest {
+	
+	
 	public static void main(String[] args) {
-	    // 创建客户端连接器. 
-	    NioSocketConnector connector = new NioSocketConnector(); 
-	    connector.getFilterChain().addLast( "logger", new LoggingFilter() ); 
-	    connector.getFilterChain().addLast( "codec", new ProtocolCodecFilter( new TextLineCodecFactory( Charset.forName( "UTF-8" )))); //设置编码过滤器 
-	    connector.setHandler(new HandlerOne());//设置事件处理器 
-	    ConnectFuture cf = connector.connect( 
-	    new InetSocketAddress("127.0.0.1", 9999));//建立连接 
-	    cf.awaitUninterruptibly();//等待连接创建完成 
-	    cf.getSession().write("知识");//发送消息 
-	    cf.getSession().close(true);
-	    cf.getSession().getCloseFuture().awaitUninterruptibly();//等待连接断开 
-	    connector.dispose(); 
+		// 创建客户端连接器.
+		NioSocketConnector connector = new NioSocketConnector();
+		connector.getFilterChain().addLast("logger", new LoggingFilter());
+		connector.getFilterChain().addLast("codec", new ProtocolCodecFilter(new TextLineCodecFactory(Charset.forName("UTF-8")))); // 设置编码过滤器
+		connector.setHandler(new HandlerOne());// 设置事件处理器
+		ConnectFuture cf = connector.connect(new InetSocketAddress("127.0.0.1", 8888));// 建立连接
+		cf.awaitUninterruptibly();// 等待连接创建完成
+		cf.getSession().write("知识");// 发送消息
 
-	  }
+		try {
+			Thread.sleep(1000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+
+		cf.getSession().close(true);
+		cf.getSession().getCloseFuture().awaitUninterruptibly();// 等待连接断开
+		connector.dispose();
+
+	}
 }

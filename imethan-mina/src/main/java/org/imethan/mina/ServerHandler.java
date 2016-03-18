@@ -12,35 +12,32 @@ import org.apache.mina.core.session.IoSession;
  * @datetime 2016年3月16日下午3:43:21
  */
 public class ServerHandler extends IoHandlerAdapter {
+	
 	@Override
 	public void messageReceived(IoSession session, Object message) throws Exception {
 		// TODO Auto-generated method stub
-		// super.messageReceived(session, message);
-		System.out.println("message :" + message);
+		System.out.println("server message :" + message);
+
+		session.write("hello socket");
 	}
 
 	@Override
 	public void sessionClosed(IoSession session) throws Exception {
-		// TODO Auto-generated method stub
 		super.sessionClosed(session);
 	}
 
 	@Override
 	public void sessionIdle(IoSession session, IdleStatus status) throws Exception {
-		// TODO Auto-generated method stub
 		super.sessionIdle(session, status);
 	}
 
 	@Override
 	public void messageSent(IoSession session, Object message) throws Exception {
-
-		System.out.println("发送的消息是：" + message.toString());
-		// super.messageSent(session, message);
+		System.out.println("send message：" + message.toString());
 	}
 
 	@Override
 	public void sessionCreated(IoSession session) throws Exception {
-
 		super.sessionCreated(session);
 	}
 
