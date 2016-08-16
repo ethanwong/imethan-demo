@@ -1,4 +1,4 @@
-package org.imethan.mina;
+package org.imethan.mina.client;
 
 import org.apache.mina.core.service.IoHandlerAdapter;
 import org.apache.mina.core.session.IdleStatus;

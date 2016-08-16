@@ -1,4 +1,4 @@
-package org.imethan.mina;
+package org.imethan.mina.client;
 
 import java.net.InetSocketAddress;
 import java.nio.charset.Charset;

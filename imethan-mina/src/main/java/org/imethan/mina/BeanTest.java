@@ -10,7 +10,7 @@ package org.imethan.mina;
 public class BeanTest {
 	
 	public String getName(){
-		return "BeanTest";
+		return "Spring BeanTest";
 	}
 
 }
